@@ -39,7 +39,7 @@ public function getiklanAll(){
         $lat1 = $data['lat_akses'];
         $lon1 = $data['lon_akses'];
          $hasil=$iklan->GetIklanAll($data);
-         if($hasil!=null){
+         
          foreach($hasil as $cek){
              $i=0;
             $lat2 = $cek->lat_iklan;
@@ -51,6 +51,7 @@ public function getiklanAll(){
                 $iklanid[]=$cek->id_iklan;
             }
          }
+         if($iklanid[0]!=null){
          $hasil=$iklan->GetIklanID($iklanid);
          $response['Status'] = 'Berhasil';
          $response['Data'] =  $hasil;
