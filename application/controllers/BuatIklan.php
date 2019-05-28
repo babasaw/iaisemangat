@@ -27,7 +27,7 @@ public function PostIklan() {
         $response['Error'] =  validation_errors();
         getOutput($response,'400');
       }
-
+      $this->db->close();
 }
 
 
