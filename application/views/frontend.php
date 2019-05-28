@@ -11,13 +11,17 @@
 	<title>Ijasah - FT Teknik</title>
 	<!-- <link href="https://cdn.jsdelivr.net/npm/vuesax/dist/vuesax.css" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-	<!-- <link rel="stylesheet" href="<?php echo base_url()?>assets/css/vuesax.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/app.css"> -->
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/vuesax.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>assets/css/app.css"> 
+	
+	
+     
 </head>
 <body>
 	<div id="container">
 		<div id="app"></div>
 	</div>
 	<script src= "<?php echo base_url()?>assets/js/app.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBTzMYmfR0g8osOWwlWZgunN9WUHzJ4y7U"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+a, body, span, div, h1,h2,h3,h4,h5,h6,p,button{
+    font-family: Lato !important;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Lato !important;
+      margin: 0px;
+  }
+  
+  
+  html {
+    font-family: Lato!important;
+    background-color: #F2F2F2;
+  }
+  
+  .navbar{
+    position: fixed!important;
+    background-color: #1d6613;
+    color: rgb(0,0,0);
+    z-index: 300;
+    width: 100%;
+  }
