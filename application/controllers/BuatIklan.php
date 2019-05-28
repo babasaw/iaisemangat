@@ -11,9 +11,6 @@ $this->load->model('BuatIklan_model');
 }
 
 
-    
-
-
 public function PostIklan() {
     $data = (array)json_decode(file_get_contents('php://input'));
     $iklan = $this->BuatIklan_model;
