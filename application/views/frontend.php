@@ -18,8 +18,6 @@
 	<div id="container">
 		<div id="app"></div>
 	</div>
-
-	<!-- <script src= "<?php echo base_url()?>assets/js/app.js"></script> -->
 	<script src= "<?php echo base_url()?>assets/js/app.js"></script>
 </body>
 </html>
