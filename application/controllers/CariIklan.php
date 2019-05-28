@@ -29,8 +29,8 @@ public function _distance($lat1, $lat2, $lon1, $lon2) {
 
 public function getiklanAll(){
     $data = (array)json_decode(file_get_contents('php://input'));
-    $lat1 = $data['lat_akses'];
-    $lon1 = $data['lon_akses'];
+    // $lat1 = $data['lat_akses'];
+    // $lon1 = $data['lon_akses'];
     $iklan = $this->CariIklan_model;
     $this->form_validation = new CI_Form_validation();
     $this->form_validation->set_data($data);
