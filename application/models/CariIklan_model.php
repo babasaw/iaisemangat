@@ -26,6 +26,7 @@ Class CariIklan_model extends CI_Model {
             WHERE WAKTU_KADALUARSA > '$tanggal';");
             $dataiklan = $query->result();
             return $dataiklan;
+            $this->db->close();
     }
 
     public function GetIklanId($data)
@@ -43,6 +44,7 @@ Class CariIklan_model extends CI_Model {
             $dataiklan[] = $query->row();
         }
             return $dataiklan;
+            $this->db->close();
 
     }
 

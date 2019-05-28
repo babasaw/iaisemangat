@@ -42,6 +42,7 @@ Class BuatIklan_model extends CI_Model {
     );
           $this->db->insert('iai_iklan', $val);
           $error = $this->db->error();
+          $this->db->close();
     }
 }
 
