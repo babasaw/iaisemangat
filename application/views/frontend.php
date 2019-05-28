@@ -22,6 +22,5 @@
 		<div id="app"></div>
 	</div>
 	<script src= "<?php echo base_url()?>assets/js/app.js"></script>
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBTzMYmfR0g8osOWwlWZgunN9WUHzJ4y7U"></script>
 </body>
 </html>
